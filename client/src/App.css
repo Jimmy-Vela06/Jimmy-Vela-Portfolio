@@ -1,6 +1,5 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+/* @tailwind components;
+@tailwind utilities; */
 
 /* GOOGLE FONTS */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
@@ -16,7 +15,7 @@
   --title-color: hsl(var(--hue), var(--sat), 20%);
   --title-color-dark: hsl(var(--hue), var(--sat), 0%);
   --text-color: hsl(var(--hue), var(--sat), 46%);
-  --body-color: hsl(var(--hue), var(--sat), 98%);
+  --body-color: hsl(var(--hue), var(--sat), 97%);
   --container-color: #fff;
 
   /*========== Font and typography ==========*/
@@ -195,6 +194,7 @@ img {
 @media screen and (max-width: 768px) {
   body {
     margin: 0 0 var(--header-height) 0;
+    font-size: 1.5rem;
   }
 
   .section {
