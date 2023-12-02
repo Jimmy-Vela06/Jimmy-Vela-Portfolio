@@ -4,6 +4,7 @@ import { motion } from 'framer-motion';
 
 // import Socials from './Socials';
 import Information from './Information';
+import ParticlesContainer from '../Particles/ParticlesContainer';
 
 import './hero.css';
 
