@@ -232,3 +232,8 @@ img {
 .heroSection {
   height: 100vh;
 }
+
+.containP {
+  position: relative;
+  width: 100%;
+}
