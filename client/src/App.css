@@ -1,5 +1,6 @@
-/* @tailwind components;
-@tailwind utilities; */
+/* @import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities'; */
 
 /* GOOGLE FONTS */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
@@ -12,20 +13,20 @@
   /*Color mode HSL(hue, saturation, lightness)*/
   --hue: 0;
   --sat: 0%;
-  --title-color: hsl(var(--hue), var(--sat), 20%);
+  --title-color: hsl(var(--hue), var(--sat), 19%);
   --title-color-dark: hsl(var(--hue), var(--sat), 0%);
   --text-color: hsl(var(--hue), var(--sat), 46%);
-  --body-color: hsl(var(--hue), var(--sat), 97%);
-  --container-color: #fff;
+  --body-color: #fffff7;
+  --container-color: #fffff7;
 
   /*========== Font and typography ==========*/
   --body-font: 'Poppins', sans-serif;
 
   /*.5rem = 8px | 1rem = 16px ...*/
-  --big-font-size: 3.5rem;
+  --big-font-size: 3.2rem;
   --h1-font-size: 2.25rem;
   --h2-font-size: 1.5rem;
-  --h3-font-size: 1.25rem;
+  --h3-font-size: 1.2rem;
   --normal-font-size: 1rem;
   --small-font-size: 0.875rem;
   --smaller-font-size: 0.813rem;
@@ -86,7 +87,7 @@ textarea {
 }
 
 body {
-  background-color: var(--body-color);
+  background-color: #fffff7;
   color: var(--text-color);
 }
 
@@ -172,6 +173,13 @@ img {
   align-items: center;
 }
 
+.heroBackgoound {
+  background-image: url('./assets/protruding-squares\ \(1\).svg');
+  max-width: 100%;
+  max-height: max-content;
+  margin: 10px;
+}
+
 /* BREAKPOINTS */
 /* For large devices */
 @media screen and (max-width: 992px) {
@@ -219,4 +227,8 @@ img {
     margin-left: var(--mb-1);
     margin-right: var(--mb-1);
   }
+}
+
+.heroSection {
+  height: 100vh;
 }

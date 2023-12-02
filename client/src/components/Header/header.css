@@ -5,6 +5,8 @@
   left: 0;
   z-index: var(--z-fixed);
   background-color: var(--body-color);
+
+  box-shadow: 10px 10px 10px #f2f2e8, -10px -10px 20px #e2e2db;
 }
 
 .nav {
@@ -45,12 +47,17 @@
 .active-link,
 .nav__link:hover {
   color: var(--title-color-dark);
+  font-size: 14.5px;
+  text-shadow: #f4f4f4 1px 1px;
 }
 
 @media screen and (max-width: 768px) {
   .header {
     top: initial;
-    bottom: 1rem;
+    border-radius: 20px;
+    bottom: 0rem;
+    padding-top: 0.3rem;
+    padding-bottom: 1rem;
   }
   .nav {
     height: var(--header-height);
@@ -114,4 +121,8 @@
   .nav__list {
     column-gap: 0;
   }
+}
+
+.apps {
+  font-size: 1.8rem;
 }
