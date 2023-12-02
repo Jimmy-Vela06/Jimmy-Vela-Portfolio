@@ -49,11 +49,11 @@ const Header = () => {
               </a>
             </li>
           </ul>
-          <i className='uil uil-times nav__close' onClick={() => showMenu(!Toggle)}></i>
+          <i className=' uil-times nav__close' onClick={() => showMenu(!Toggle)}></i>
         </div>
 
         <div className='nav__toggle' onClick={() => showMenu(!Toggle)}>
-          <i className='uil uil-apps'></i>
+          <i className='apps uil-apps' />
         </div>
       </nav>
     </header>
