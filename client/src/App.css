@@ -58,7 +58,7 @@
 @media screen and (max-width: 992px) {
   :root {
     --big-font-size: 2.75rem;
-    --h1-font-size: 1.5rem;
+    --h1-font-size: 2rem;
     --h2-font-size: 1.25rem;
     --h3-font-size: 1rem;
     --normal-font-size: 0.938rem;
@@ -112,10 +112,10 @@ button {
   outline: none;
 }
 
-img {
-  max-width: 100%;
+/* img {
+  max-width: 150%;
   height: auto;
-}
+} */
 
 /*=============== REUSABLE CSS CLASSES ===============*/
 .section {
@@ -127,19 +127,24 @@ img {
   color: var(--title-color);
 }
 
-.section__subtitle {
+/* .section__subtitle {
   display: block;
   font-size: var(--small-font-size);
   margin-bottom: 4rem;
-}
+} */
 
-.section__title,
-.section__subtitle {
+.section__title {
   text-align: center;
 }
 
 /*=============== LAYOUT ===============*/
 .container {
+  max-width: 968px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.containerAbout {
   max-width: 968px;
   margin-left: auto;
   margin-right: auto;
