@@ -31,10 +31,10 @@ const ParticlesContainer = () => {
         fpsLimit: 120,
         interactivity: {
           events: {
-            onClick: {
-              enable: true,
-              mode: 'push',
-            },
+            // onClick: {
+            //   enable: true,
+            //   mode: 'push',
+            // },
             onHover: {
               enable: true,
               mode: 'repulse',
@@ -60,10 +60,10 @@ const ParticlesContainer = () => {
             distance: 150,
             enable: true,
             opacity: 0.7,
-            width: 1,
+            width: 1.2,
           },
           collisions: {
-            enable: true,
+            enable: false,
           },
           move: {
             direction: 'none',
@@ -72,7 +72,7 @@ const ParticlesContainer = () => {
               default: 'bounce',
             },
             random: false,
-            speed: 1,
+            speed: 1.5,
             straight: false,
           },
           number: {
@@ -80,7 +80,7 @@ const ParticlesContainer = () => {
               enable: true,
               area: 800,
             },
-            value: 80,
+            value: 150,
           },
           opacity: {
             value: 0.7,
@@ -89,7 +89,7 @@ const ParticlesContainer = () => {
             type: 'circle',
           },
           size: {
-            value: { min: 1, max: 2 },
+            value: { min: 1, max: 1.2 },
           },
         },
         detectRetina: true,
