@@ -6,6 +6,8 @@ import ParticlesContainer from './components/Particles/ParticlesContainer';
 import AboutMe from './components/About/AboutMe';
 
 import './App.css';
+import Skills from './components/Skills/Skills';
+import VerifyButton from './components/Skills/VerifyButton';
 
 function App() {
   return (
@@ -17,7 +19,10 @@ function App() {
           <ParticlesContainer />
           <Hero />
         </div>
+        <div className='divider'></div>
         <AboutMe />
+        <Skills />
+
         <div>hi</div>
       </main>
     </>

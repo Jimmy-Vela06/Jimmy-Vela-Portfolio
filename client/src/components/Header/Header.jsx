@@ -14,25 +14,25 @@ const Header = () => {
         <div className={Toggle ? 'nav__menu show-menu' : 'nav__menu'}>
           <ul className='nav__list'>
             <li className='nav__item'>
-              <a href='' className='nav__link'>
+              <a href='#hero' className='nav__link'>
                 <i className='uil uil-home nav__icon' /> Home
               </a>
             </li>
 
             <li className='nav__item'>
-              <a href='' className='nav__link activ-link'>
+              <a href='#aboutMe' className='nav__link activ-link'>
                 <i className='uil uil-user nav__icon' /> About Me
               </a>
             </li>
 
-            <li className='nav__item'>
+            {/* <li className='nav__item'>
               <a href='' className='nav__link'>
                 <i className='uil uil-line-spacing nav__icon' /> My Journey
               </a>
-            </li>
+            </li> */}
 
             <li className='nav__item'>
-              <a href='' className='nav__link'>
+              <a href='#skills' className='nav__link'>
                 <i className='uil uil-file-alt nav__icon' /> Skills
               </a>
             </li>
