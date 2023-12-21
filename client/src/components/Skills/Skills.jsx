@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import Modal from './Modal';
 
 import Frontend from './Frontend.jsx';
 import Backend from './Backend.jsx';

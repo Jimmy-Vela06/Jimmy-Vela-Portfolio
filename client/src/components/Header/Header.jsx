@@ -25,12 +25,6 @@ const Header = () => {
               </a>
             </li>
 
-            {/* <li className='nav__item'>
-              <a href='' className='nav__link'>
-                <i className='uil uil-line-spacing nav__icon' /> My Journey
-              </a>
-            </li> */}
-
             <li className='nav__item'>
               <a href='#skills' className='nav__link'>
                 <i className='uil uil-file-alt nav__icon' /> Skills
@@ -38,7 +32,7 @@ const Header = () => {
             </li>
 
             <li className='nav__item'>
-              <a href='' className='nav__link'>
+              <a href='#portfolio' className='nav__link'>
                 <i className='uil uil-scenery nav__icon' /> Portfolio
               </a>
             </li>
