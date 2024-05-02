@@ -4,9 +4,6 @@
 
 ## Table of Contents:
 
-- [Jimmy-Vela-Portfolio](#jimmy-vela-portfolio)
-  - [ ](#-----)
-  - [Table of Contents:](#table-of-contents)
   - [Description](#description)
   - [Demo](#demo)
   - [Technologies](#technologies)
